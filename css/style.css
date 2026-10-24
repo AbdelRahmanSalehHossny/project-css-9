@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+section {
+    margin: 100px auto;
+}
+
+/* start about Section */
+.about {
+    text-align: center;
+}
+.about img {
+    width: 300px;
+    border-radius: 50%;
+    transition: 0.5s linear;
+}
+.about img:hover {
+    transform: scale(1.1) translate(50px, -50px);
+}
+.about h1 {
+    margin: 30px 0;
+}
+.about p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+    letter-spacing: 5px;
+}
+/* end about Section */
+
+
+/* start Skills Section  */
+.skills {
+    text-align: center;
+}
+.skills h1 {
+    margin-bottom: 20px;
+}
+.skills .card {
+    margin: 10px;
+    width: 500px;
+    margin: 55px auto;
+    padding: 20px;
+    box-shadow: 1px 1px 10px cornflowerblue;
+    transition: 0.5s linear;
+}
+.skills .card h4 {
+    margin-bottom: 15px;
+}
+.skills .card:hover {
+    transform: scale(1.1) rotate(-10deg) translate(50px);
+}
+.skills .card i {
+    font-size: 30px;
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: wheat;
+    line-height: 50px;
+    border-radius: 50%;
+    transition: 0.5s linear;
+}
+.skills .card i:hover {
+    transform: scale(1.1) rotate(360deg);
+}
+/* end Skills Section */
+
+
+/* start Projects Section */
+.projects h1 {
+    text-align: center;
+    margin: 60px auto;
+}
+.projects article {
+    width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    margin: 55px auto;
+    box-shadow: 1px 1px 10px cornflowerblue;
+    transition: 0.5s linear;
+}
+.projects article:hover {
+    transform: scale(1.1) translate(50px);
+}
+.projects article h3 {
+    margin-bottom: 10px;
+}
+.projects article p {
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+.projects article img {
+    width: 400px;
+}
+.projects article a {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 8px;
+    transition: 0.5s linear;
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+.projects article a:hover {
+    background-color: deepskyblue;
+    transform: scale(1.1) translate(50px);
+}
+/* end Projects Section */
+
+
+/* start footer */
+.contact {
+    text-align: center;
+}
+.contact h1 {
+    margin-bottom: 10px;
+}
+.contact p {
+    margin: 15px;
+}
+.contact div a {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 8px;
+    display: block;
+    margin: 15px auto;
+    width: fit-content;
+    transition: 0.5s linear;
+}
+.contact div a:hover {
+    background-color: deepskyblue;
+    transform: scale(1.1);
+}
+/* end footer */
